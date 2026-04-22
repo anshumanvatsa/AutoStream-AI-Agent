@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": "basic",
+      "name": "Basic Plan",
+      "price": "$29/month",
+      "videos": "10 videos/month",
+      "resolution": "720p",
+      "captions": false,
+      "support": "Email support only",
+      "features": ["Basic editing tools", "720p export", "10 videos/month", "Email support"]
+    },
+    {
+      "id": "pro",
+      "name": "Pro Plan",
+      "price": "$79/month",
+      "videos": "Unlimited videos",
+      "resolution": "4K",
+      "captions": true,
+      "support": "24/7 priority support",
+      "features": ["Advanced AI editing", "4K export", "Unlimited videos", "AI captions", "24/7 support", "Priority rendering"]
+    }
+  ],
+  "policies": [
+    {
+      "topic": "refund",
+      "detail": "No refunds after 7 days of purchase. Within 7 days, full refund is available."
+    },
+    {
+      "topic": "support",
+      "detail": "24/7 support is available exclusively on the Pro plan. Basic plan users get email support only."
+    },
+    {
+      "topic": "trial",
+      "detail": "A 7-day free trial is available for the Pro plan. No credit card required."
+    },
+    {
+      "topic": "upgrade",
+      "detail": "You can upgrade from Basic to Pro anytime. Billing is prorated."
+    }
+  ],
+  "company": {
+    "name": "AutoStream",
+    "tagline": "Automated video editing for content creators",
+    "website": "autostream.io",
+    "description": "AutoStream uses AI to help content creators edit videos faster. Drop your footage, get a polished cut in minutes."
+  }
+}
